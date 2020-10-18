@@ -30,7 +30,7 @@ const Menus = (props) => {
         <Button onClick={handleClose}>
           <CloseOutlinedIcon />
         </Button>
-        {["balance", "deposit", "withdraw", "affiliate"].map((text) => (
+        {["balance", "deposit", "withdraw", "affiliate",'Home'].map((text) => (
           <ListItem button key={text}>
             <Link to={`/${text}`}>
               <ListItemText primary={text} className='link' />

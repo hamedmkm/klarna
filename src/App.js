@@ -14,8 +14,9 @@ import Affiliate from './containers/Menu/Affiliates'
 
 
 
+
 function App() {
-  const paths = ['/','/Balance','/Deposit','/Withdraw','/Affiliate'];
+  const paths = ['/','/Balance','/Deposit','/Withdraw','/Affiliate','/Home'];
   return (
     <Router basename='/'>
       <Route path={paths} exact component={Header} />
@@ -23,7 +24,9 @@ function App() {
       <Switch>
         <Route path='/Balance' exact component={Balance} />
         <Route path='/Deposit' exact component={Deposit} />
+        <Route path='/Home' exact component={Home} />
         <Route path='/Withdraw' exact component={Withdraw} />
+        <Route path='/Home' exact component={Home} />
         <Route path='/Affiliate' exact component={Affiliate} />
         <Route path='/' exact component={Home} />
         <Route path='/login' exact component={Login} />

@@ -4,7 +4,8 @@ import Menu from "../../components/Menu/Menus";
 
 
 const Menus = () => {
-  return <Menu/>
+  return(
+  <div > <Menu/></div>)
  
 };
 

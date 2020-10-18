@@ -76,7 +76,7 @@ const Login = () => {
             Login
           </Button>
               <Button onClick={goPrevPage} style={{color: '#4c4c4c'}}>
-                بازگشت 
+                back 
                 <KeyboardReturnIcon />
               </Button>
             </Grid>

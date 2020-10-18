@@ -1,10 +1,14 @@
 import React from 'react'
+import Login from '../../containers/Login/Login'
+import {useState} from 'react';
+import {BrowserRouter as  Router, Route, Switch,Redirect } from 'react-router-dom';
 
 const Header = () => {
+    const paths = ['/Login'];
     return (
-        <div className="">
-          
-        </div>
+        <Router className=""  >
+  
+        </Router>
     )
 }
 
