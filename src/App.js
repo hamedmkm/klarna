@@ -7,7 +7,7 @@ import NotFound from './containers/404/404'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 function App() {
-  const paths = ['/','/login'];
+  const paths = ['/'];
   return (
     <Router basename='/'>
       <Route path={paths} exact component={Header} />

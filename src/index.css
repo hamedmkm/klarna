@@ -1,0 +1,7 @@
+@font-face {
+    src: url('./assets/fonts/css/style.css');
+    font-family: IRANSans;
+}
+body {
+    background-color: white;
+}
