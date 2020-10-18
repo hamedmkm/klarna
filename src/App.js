@@ -15,10 +15,8 @@ import Affiliate from './containers/Menu/Affiliates'
 
 
 function App() {
-  const paths = ['/'];
+  const paths = ['/','/Balance','/Deposit','/Withdraw','/Affiliate'];
   return (
-    <div>
-    <Menus/>
     <Router basename='/'>
       <Route path={paths} exact component={Header} />
       <Route path={paths} exact component={Menus}/>
@@ -35,7 +33,6 @@ function App() {
       </Switch>
       <Route path={paths} exact component={Footer} />
     </Router>
-    </div>
   );
 }
 
