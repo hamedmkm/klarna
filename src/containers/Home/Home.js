@@ -1,12 +1,8 @@
-import React from 'react'
-import "./Home.css"
-
+import React from "react";
+import "./Home.css";
+import HomePage from "../../components/Home/Home";
 const Home = () => {
-    return (
-        <div className="">
-            Homepage
-        </div>
-    )
-}
+  return <HomePage />;
+};
 
 export default Home;
