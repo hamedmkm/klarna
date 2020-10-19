@@ -1,8 +1,7 @@
 import React,{} from 'react';
 import {BrowserRouter as  Router, Route, Switch,Redirect } from 'react-router-dom';
 import Home from './containers/Home/Home'
-import Login from './containers/Login/Login'
-import SignUp from './containers/SignUp/SignUp'
+import Auth from './containers/Auth/Auth'
 import NotFound from './containers/404/404'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
@@ -16,7 +15,7 @@ import Affiliate from './containers/Menu/Affiliates'
 
 
 function App() {
-  const paths = ['/','/Balance','/Deposit','/Withdraw','/Affiliate','/Home'];
+  const paths = ['/','/Balance','/Deposit','/Withdraw','/Affiliate'];
   return (
     <Router basename='/'>
       <Route path={paths} exact component={Header} />
@@ -24,13 +23,15 @@ function App() {
       <Switch>
         <Route path='/Balance' exact component={Balance} />
         <Route path='/Deposit' exact component={Deposit} />
-        <Route path='/Home' exact component={Home} />
         <Route path='/Withdraw' exact component={Withdraw} />
-        <Route path='/Home' exact component={Home} />
         <Route path='/Affiliate' exact component={Affiliate} />
         <Route path='/' exact component={Home} />
-        <Route path='/login' exact component={Login} />
-        <Route path='/signup' exact component={SignUp} />
+        <Route path='/login' exact>
+          <Auth mode='login'/>
+        </Route>
+        <Route path='/signup' exact>
+          <Auth mode='signup'/>
+        </Route>
         <Route path='/404' exact component={NotFound} />
         <Redirect to='/404' />
       </Switch>

@@ -1,18 +1,28 @@
-import React from "react";
-import { useForm } from "react-hook-form";
-import imgaffiliate from '../../assets/img/imgaffiliate.jpg'
-
-
+import React, {useState} from "react";
+import SpLayout from "../../shared/layout/SpLayout";
+import Flex from '../../shared/style/Flex'
+import Back from '../../shared/style/Back'
+import "./Affiliate.css";
 const Affiliate = () => {
-
-  return <div className='affiliate'>
-    <img  className='imgaffiliate' src={imgaffiliate} />
-    <h1 className='linkaff' style={{fontStyle:"italic"}}>Your referal link</h1>
-    <input text='Read-only' value='http://localhost:3000/hamedmkm' className='inputaff' readOnly= {true} />
-<h2 className='textaff'  style={{fontStyle:"italic"}}><br></br>youre Ref:1</h2>
-
-  </div>
- 
+  const [ref,setRef] = useState({
+    count: 1,
+    link: 'http://localhost:3000/hamedmkm'
+  });
+  return (
+    <SpLayout
+      ContainerClass='affiliateContainer'
+      GridClass='affiliateGrid'
+      img='affiliateImg'>
+      <Flex className='backParent'>
+        <Back route='/'/>
+      </Flex>
+      <Flex marginTop='40px' fontSize='12px' >
+        <span>Your referal link: </span>
+        <span className='refLink'>{ref.link}</span>
+        <Flex display='flex' flexDirection='row-reverse' marginTop='15px'>your Refs : {ref.count}</Flex>
+      </Flex>
+    </SpLayout>
+  );
 };
 
 export default Affiliate;

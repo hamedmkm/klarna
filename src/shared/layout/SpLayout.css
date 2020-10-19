@@ -1,0 +1,31 @@
+.containerSpLayout {
+    transform: translateY(180px);
+}
+.gridSpLayout {
+  margin: 10px 0px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 25px 7px #ccc;
+  border-radius: 10px;
+}
+.imgSpLayout {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+@media screen and (max-width: 650px) {
+  .gridSpLayout {
+      height: 100vh;
+  }
+  .gridSpLayout {
+    margin-top: 0px !important;
+    }
+  .containerSpLayout{
+    transform: translateY(0);
+    overflow: hidden;
+    }
+    .gridSpItem {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

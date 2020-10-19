@@ -1,5 +1,5 @@
 import React from 'react'
-import Login from '../../containers/Login/Login'
+import Auth from '../../containers/Auth/Auth'
 import {useState} from 'react';
 import {BrowserRouter as  Router, Route, Switch,Redirect } from 'react-router-dom';
 

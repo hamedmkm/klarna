@@ -1,9 +1,16 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
+import Flex from '../../shared/style/Flex'
 const Home = () => {
     return (
         <div className="">
-         hello
+        <Flex>
+         <Link to='/login'>login</Link>
+        </Flex>
+        <Flex>
+        <Link to='/signup'>signup</Link>
+
+        </Flex>
         </div>
     )
 }

@@ -1,0 +1,32 @@
+.userLoginImg {
+  background: url("../../assets/img/userLogin.jpg");
+  background-position: -480px -395px;
+  background-size: 1415px;
+  width: 300px;
+}
+.loginButtonsBox {
+  margin-top: 40px !important;
+  justify-content: space-between;
+  display: flex;
+}
+.loginButtonsBox button {
+  font-family: IRANSans;
+}
+.passwordLoginClass {
+  width: 100%;
+}
+.registerBtn {
+  text-align: left !important;
+  font-size: 9px !important;
+  margin-top: 20px !important;
+  padding-bottom: 0 !important;
+}
+@media screen and (max-width: 650px) {
+  .parentAllInputs {
+    margin-top: -70px !important;
+    margin-bottom: -19px !important;
+  }
+  .passwordLoginClass {
+    padding-top: 0;
+  }
+}
