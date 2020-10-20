@@ -9,7 +9,6 @@ const Home = () => {
         </Flex>
         <Flex>
         <Link to='/signup'>signup</Link>
-
         </Flex>
         </div>
     )

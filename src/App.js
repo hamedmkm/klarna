@@ -1,7 +1,7 @@
 import React,{} from 'react';
 import {BrowserRouter as  Router, Route, Switch,Redirect } from 'react-router-dom';
 import Home from './containers/Home/Home'
-import Auth from './containers/Auth/Auth'
+import Auth from './components/Auth/Auth'
 import NotFound from './containers/404/404'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
@@ -10,6 +10,7 @@ import Balance from './containers/Menu/Balances'
 import Deposit from './containers/Menu/Deposits'
 import Withdraw from './containers/Menu/Withdraws'
 import Affiliate from './containers/Menu/Affiliates'
+
 
 
 
