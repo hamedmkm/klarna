@@ -2,7 +2,7 @@ import React from "react";
 import btc from '../../assets/img/btc.png'
 import trx from '../../assets/img/trx.png'
 import roble from '../../assets/img/roble.jpg'
-
+import './Deposit.css'
 const Deposit = () => {
   return <div className='Deposita'>
  
@@ -18,13 +18,13 @@ const Deposit = () => {
 <l className='ldeposit'>
 <input placeholder='amount' className='btndeposit'/>
 <input text='Read-only' value='0xd9145CCE52D386f254917e481eB44e9943F39138' className='inputdeposit' readOnly= {true} />
-<img  className='imgdeposit2' src={trx} />
+<img  className='imgdeposit' src={trx} />
 
 </l>
 <l className='ldeposit'>
 <input placeholder='amount' className='btndeposit'/>
 <input text='Read-only' value='0xd9145CCE52D386f254917e481eB44e9943F39138' className='inputdeposit' readOnly= {true} />
-<img  className='imgdeposit3' src={roble} />
+<img  className='imgdeposit' src={roble} />
 
 </l>
 <button className='btnsubwithdraw1' text='submit' value='submit'>submit</button>
