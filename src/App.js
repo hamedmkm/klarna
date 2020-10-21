@@ -19,8 +19,9 @@ function App() {
   const paths = ['/','/Balance','/Deposit','/Withdraw','/Affiliate'];
   return (
     <Router basename='/'>
+       <Route path={paths} exact component={Menus}/>
       <Route path={paths} exact component={Header} />
-      <Route path={paths} exact component={Menus}/>
+     
       <Switch>
         <Route path='/Balance' exact component={Balance} />
         <Route path='/Deposit' exact component={Deposit} />

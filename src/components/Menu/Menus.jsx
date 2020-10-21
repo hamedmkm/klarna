@@ -41,7 +41,7 @@ const Menus = (props) => {
     </div>
   );
   return (
-    <div style={{ display: "flex", justifyContent: "flex-end" }}>
+    <div style={{ display: "flex", justifyContent: "flex-end" }} className='menu'>
       <React.Fragment>
         <Button onClick={toggleDrawer(true)}>
           <MenuOutlinedIcon />

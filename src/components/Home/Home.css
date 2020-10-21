@@ -1,0 +1,52 @@
+.Homeimg{
+    background: url(../../assets/img/backgroundHome.jpg) no-repeat;
+    width: 100%;
+   height: 17rem !important;
+   text-align: center;
+    background-size: 100% ;
+    filter: blur(2px);
+    
+    }
+    .text{
+       text-align: center;
+    display: inline-block;
+    text-align: end;
+    width: 90%;
+    margin: 20px;
+    
+    }
+    .Home{
+      margin: auto;
+    }
+    .HomeLogin{
+           
+            background-color: #11183e; 
+            color: #d5d1d1;
+            font-weight: bold;
+            border: hidden;
+           position: fixed;
+         top: 35%;
+         left: 11%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            border-radius: 20%;
+            padding: 1%;
+            border-bottom: 5px solid #ae0000;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .HomeSignup{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #d5d1d1;
+        position: fixed;
+        font-weight: bold;
+       border-bottom: 5px solid #ae0000;
+     top: 25%;
+     left: 11%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+      border-radius: 20%;
+        padding: 1%;
+        background-color: #11183e; 
+        
+    
+    }
