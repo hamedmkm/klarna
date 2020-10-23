@@ -22,7 +22,9 @@ const Home = () => {
    <img className='imgchasbide1' src={chasbide1}/></s>
   <s>
   <img className='imgchasbide' src={chasbide1}/>
-   <l className='text1'><br></br>You get paid right away, in full,<br></br> while your customers get the option to pay later. When you team up with Klarna you get more than just aYou get paid right away, in full, while your customers get the option to pay later. When you team up with Klarn journey.<br></br> </l>
+   <l className='text1'><br></br>You get paid right away, the monastry, and relinguish his claims to the wood-cuting and fishery rihgts at once. He was the more ready to do this becuase the rights had becom much less valuable, and he had indeed the vaguest idea where the wood and river in quedtion were.
+
+These excellant intentions were strengthed wh in full,<br></br> while your customers get the option to pay later. When you team up with Klarna you get more than just aYou get paid right away, in full, while your customers get the option to pay later. When you team up with Klarn journey.<br></br> </l>
  </s>
  <s>
  <img className='imgchasbide2' src={chasbide1}/>

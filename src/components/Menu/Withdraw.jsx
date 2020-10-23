@@ -29,7 +29,7 @@ const Withdraw = () => {
     console.log(state)
   }
   return (
-    <SpLayout
+    <SpLayout 
       ContainerClass='listContainer'
       GridClass='listGrid'
       img='listImg withdrawImg'>
@@ -37,21 +37,7 @@ const Withdraw = () => {
         <Back route='/' />
       </Flex>
       <Flex marginTop='40px' fontSize='12px' className='withdrawParentInputs'>
-        {/* <Input
-          type='text'
-          handleType='wallet'
-          placeholder=' youre address wallet'
-          className='withdrawInput'
-          style={{ width: "200px", textAlign: "left", direction: "ltr" }}
-        />
-        <Input
-          type='number'
-          handleType='amount'
-          className='withdrawInput'
-          placeholder='amount'
-          style={{ width: "80px", marginLeft: "10px" }}
-        />
-        <button onClick={handleClick}>Submit</button> */}
+      
         <input
           placeholder=' youre address wallet'
           type='text'

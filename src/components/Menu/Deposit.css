@@ -1,0 +1,46 @@
+.Deposit{
+    margin: 10%;
+    text-align: center;
+border: hidden;
+box-shadow: 5px 5px 5px  5px #bab8b8 ;
+    
+    background-color: #fafafa;
+
+
+}
+.btndeposit{
+    width: 60px;
+    margin: 3%;
+    border: 1px solid #9e9d9d;
+    text-align: center;
+}
+.ldeposit1{
+    border-radius: 5%;
+    border: 3px solid #c4c0c0;
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    }
+.ldeposit2{
+    border-radius: 5%;
+    border: 3px solid #c4c0c0;
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    }
+.ldeposit3{
+    border-radius: 5%;
+    border: 3px solid #c4c0c0;
+display: block;
+padding: 20px;
+margin: 10px;
+}
+.imgdeposit11{
+    text-align: center;
+    border-radius: 50%;
+    width: 50%;
+    margin-top: 10px;
+}
+.Deposita{
+    width: 100%;
+}

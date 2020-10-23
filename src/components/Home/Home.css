@@ -18,11 +18,16 @@
               box-shadow: 5px 5px 8px #a5a2a2
     }
     .text2{
+      border-bottom-right-radius: 10%;
+      padding: 5px;
       text-align: center;
       display: inline-block;
       text-align: end;
+      background-color: #f3efef;
       width: 90%;
-
+      box-shadow: 5px 5px 5px #abaaaa;
+      margin: 10px 12px 10px;
+border:1px solid #cbcaca;
       font-size: 13px;
     }
     .imgchasbide{
@@ -39,7 +44,13 @@ float: left;
       display: inline-block;
       text-align: end;
       width: 60%;
-      margin-top: 10%;
+     
+      background-color: #f3efef;
+      box-shadow: 5px 5px 5px #abaaaa;
+      margin: 30px 12px 10px;
+      border-bottom-right-radius: 10%;
+      padding: 10px;
+border:1px solid #cbcaca;
       font-size: 13px;
     }
     .text{
@@ -47,7 +58,11 @@ float: left;
     display: inline-block;
     text-align: end;
     width: 60%;
-  
+    box-shadow: 5px 5px 5px #abaaaa;
+      background-color: #f3efef;
+      border-bottom-right-radius: 10%;
+     margin-right: 15px;
+border:1px solid #cbcaca;
     margin-top: 10%;
     font-size: 13px;
     }
@@ -56,31 +71,33 @@ float: left;
       width: 30%;
       border-radius: 50%;
   float: right;
-  margin-right: 30px;
+  margin-right: 15px;
 
 box-shadow: 5px 5px 8px #a5a2a2
 }
     .Homepan{
 
    
-      border-radius: 20%;
+     border: hidden;
       font-size: 20px;
       text-align: center;
       height: 110px;
-      border: hidden;
+      border-top:  10px double;
+      border-bottom-left-radius: 500px;
+      border-bottom-right-radius: 500px;
  background: url(../../assets/img/gifbackground.gif) no-repeat ;
- background-size: 100%;
+ background-size: 108%;
 margin-top: 10px;
 width:200px;
 padding-top: 10px;
 color: black;
 margin-right: 28%;
-opacity: 0.9;
+
 font-family: "Lucida Console", Courier, monospace;
     }
   
     .Home{
-    background-color: #dedede;
+    background-color: #f8f8f8;
       margin: auto;
 clear: both;
     }

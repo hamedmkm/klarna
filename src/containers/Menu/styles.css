@@ -59,7 +59,7 @@ background: #f7f7f7;
 }
 .affiliateImg {
   background: url('../../assets/img/imgaffiliate.jpg') no-repeat !important;
-  background-size: 617px !important;
+  background-size: 619px !important;
   background-position: center !important;
-
+width: 100%;
 }

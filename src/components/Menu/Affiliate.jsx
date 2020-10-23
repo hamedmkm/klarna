@@ -8,7 +8,7 @@ const Affiliate = () => {
     link: 'http://localhost:3000/hamedmkm'
   });
   return (
-    <SpLayout
+    <SpLayout 
       ContainerClass='listContainer'
       GridClass='listGrid'
       img='listImg affiliateImg'>
