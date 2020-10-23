@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import SpLayout from "../../shared/layout/SpLayout";
 import Flex from '../../shared/style/Flex'
 import Back from '../../shared/style/Back'
-import "./Affiliate.css";
 const Affiliate = () => {
   const [ref,setRef] = useState({
     count: 1,
@@ -10,9 +9,9 @@ const Affiliate = () => {
   });
   return (
     <SpLayout
-      ContainerClass='affiliateContainer'
-      GridClass='affiliateGrid'
-      img='affiliateImg'>
+      ContainerClass='listContainer'
+      GridClass='listGrid'
+      img='listImg affiliateImg'>
       <Flex className='backParent'>
         <Back route='/'/>
       </Flex>

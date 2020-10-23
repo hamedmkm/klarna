@@ -15,7 +15,7 @@ import SpLayout from "../../shared/layout/SpLayout";
 import Back from "../../shared/style/Back";
 import AuthItems from "./AuthItems";
 import { useHistory } from "react-router-dom";
-import { useValidate } from "../../hooks/useValidator";
+import { useValidate } from "../../shared/hooks/useValidator";
 const Auth = (props) => {
   const { mode } = props;
   const History = useHistory();
