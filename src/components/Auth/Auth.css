@@ -1,8 +1,8 @@
 .userLoginImg {
-  background: url("../../assets/img/userLogin.jpg");
-  background-position: -480px -395px;
-  background-size: 1415px;
-  width: 300px;
+  background: url("../../assets/img/userLogin.jpg") no-repeat;
+ 
+  background-size: 100%;    
+  width: 80%;
 }
 .loginButtonsBox {
   margin-top: 40px !important;

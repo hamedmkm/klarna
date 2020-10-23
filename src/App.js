@@ -4,7 +4,6 @@ import Home from './containers/Home/Home'
 import Auth from './components/Auth/Auth'
 import NotFound from './containers/404/404'
 import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
 import Menus from './containers/Menu/Menus'
 import Balance from './containers/Menu/Balances'
 import Deposit from './containers/Menu/Deposits'
@@ -18,6 +17,7 @@ import Affiliate from './containers/Menu/Affiliates'
 function App() {
   const paths = ['/','/Balance','/Deposit','/Withdraw','/Affiliate'];
   return (
+   
     <Router basename='/'>
        <Route path={paths} exact component={Menus}/>
       <Route path={paths} exact component={Header} />
@@ -36,8 +36,9 @@ function App() {
         </Route>
         <Route path='/404' exact component={NotFound} />
         <Redirect to='/404' />
+       
       </Switch>
-      <Route path={paths} exact component={Footer} />
+      
     </Router>
   );
 }

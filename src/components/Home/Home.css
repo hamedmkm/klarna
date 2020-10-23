@@ -7,16 +7,82 @@
     filter: blur(2px);
     
     }
+    .imgchasbide2{
+
+        float: center;
+              width: 30%;
+              border-radius: 50%;
+              margin-top: 20px;
+              padding: 0.5%;
+           margin-right: 34%;
+              box-shadow: 5px 5px 8px #a5a2a2
+    }
+    .text2{
+      text-align: center;
+      display: inline-block;
+      text-align: end;
+      width: 90%;
+
+      font-size: 13px;
+    }
+    .imgchasbide{
+float: left;
+      width: 30%;
+      border-radius: 50%;
+      margin-top: 30px;
+      padding: 0.5%;
+      margin-left: 20px;
+      box-shadow: 5px 5px 8px #a5a2a2
+    }
+    .text1{
+      text-align: center;
+      display: inline-block;
+      text-align: end;
+      width: 60%;
+      margin-top: 10%;
+      font-size: 13px;
+    }
     .text{
        text-align: center;
     display: inline-block;
     text-align: end;
-    width: 90%;
-    margin: 20px;
-    
+    width: 60%;
+  
+    margin-top: 10%;
+    font-size: 13px;
     }
+    .imgchasbide1{
+      padding: 0.5%;
+      width: 30%;
+      border-radius: 50%;
+  float: right;
+  margin-right: 30px;
+
+box-shadow: 5px 5px 8px #a5a2a2
+}
+    .Homepan{
+
+   
+      border-radius: 20%;
+      font-size: 20px;
+      text-align: center;
+      height: 110px;
+      border: hidden;
+ background: url(../../assets/img/gifbackground.gif) no-repeat ;
+ background-size: 100%;
+margin-top: 10px;
+width:200px;
+padding-top: 10px;
+color: black;
+margin-right: 28%;
+opacity: 0.9;
+font-family: "Lucida Console", Courier, monospace;
+    }
+  
     .Home{
+    background-color: #dedede;
       margin: auto;
+clear: both;
     }
     .HomeLogin{
            
