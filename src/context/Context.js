@@ -1,4 +1,6 @@
 import React from 'react'
 
-const Context = React.createContext();
-export default Context;
+const Context = React.createContext({
+    setData: () => {},
+});
+export {Context};

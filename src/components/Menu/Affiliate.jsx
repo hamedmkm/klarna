@@ -3,7 +3,7 @@ import SpLayout from "../../shared/layout/SpLayout";
 import Flex from '../../shared/style/Flex'
 import Back from '../../shared/style/Back'
 const Affiliate = () => {
-  const [ref,setRef] = useState({
+  const [ref] = useState({
     count: 1,
     link: 'http://localhost:3000/hamedmkm'
   });

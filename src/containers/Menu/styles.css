@@ -22,6 +22,9 @@ background: #f7f7f7;
   flex-direction: column-reverse;
   height: 370px;
 }
+.listGridDepo {
+  height: auto !important;
+}
 .refLink {
   border-bottom: 1px solid #eee;
   margin-left: 10px;
@@ -50,10 +53,11 @@ background: #f7f7f7;
   flex-direction: row-reverse;
   width: 100%;
   justify-content: center;
+  padding-bottom: 20px;
 }
 .withdrawImg {
   background: url('../../assets/img/imgWithdraw.jpeg') no-repeat !important;
-  background-size: 350px !important;
+  background-size: 320px !important;
   background-position: center !important;
 
 }
@@ -62,4 +66,43 @@ background: #f7f7f7;
   background-size: 617px !important;
   background-position: center !important;
 
+}
+.depositReadOnly {
+  width: 200px !important;
+  word-break: break-all;
+  text-align: left;
+  direction: ltr;
+}
+.parentDeposit {
+  margin-top: 40px;
+  font-size: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+.parentDepositBox {
+ display: flex;
+ flex-direction: row-reverse;
+ margin: 10px 0px;
+ align-items: center; 
+}
+.titleDepoItems {
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: -10px;
+  margin-top: 15px;
+  color: #4a4a4a;
+}
+.walletInp {
+  width: 200px;
+  text-align: left;
+  direction: ltr;
+}
+.amountInp {
+  width: 80px;
+  margin-left: 10px;
+}
+.listContainerDepo {
+  height: 472px !important;
 }

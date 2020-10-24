@@ -6,7 +6,6 @@ import {
   List,
   ListItem,
   ListItemText,
-  makeStyles,
 } from "@material-ui/core";
 import MenuOutlinedIcon from "@material-ui/icons/MenuOutlined";
 import CloseOutlinedIcon from "@material-ui/icons/CloseOutlined";

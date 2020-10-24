@@ -1,39 +1,13 @@
-import React, { useReducer } from "react";
-import Context from "../../context/Context"
-const Input = ({ handleType, type,...props}) => {
-  const initialState = {
-    amount: "",
-    wallet: "",
-  };
-  const reducer = (state, action) => {
-    switch (action.type) {
-      case "wallet":
-        return { ...state, wallet: action.state };
-      case "amount":
-        const amount = Number(action.state);
-        return {
-          ...state,
-          amount: amount === 0 ? "" : amount,
-        };
-      default:
-        return state;
-    }
-  };
-  const [state, dispatch] = useReducer(reducer, initialState);
-  const handleChange = (e, type) => {
-    const { value } = e.target;
-    dispatch({ type: type, state: value });
-    console.log(state.amount);
-  };
+import React from "react";
+const Input = ({type,change,value,name, ...props}) => {
   return (
-    <Context.Provider value={state}>
       <input
         type={type}
-        onChange={(e) => handleChange(e, handleType)}
-        value={Reflect.get(state, handleType)}
+        onChange={change}
+        value={value}
+        name={name}
         {...props}
       />
-    </Context.Provider>
   );
 };
 
