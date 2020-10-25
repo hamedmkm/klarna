@@ -1,0 +1,36 @@
+.footer{
+background: #aeaeae;
+ border: 2px solid #7a7676;
+ width: 100%;
+height: 130px;
+margin: 1px;
+margin: auto;
+display: inline-block;
+}
+.footerT{
+float: left;
+font-weight: bold;
+padding-left: 10px;
+text-align: left;
+color: #000000;
+}
+.footgit{
+    width: 1rem;
+    float: left;
+    font-weight: bold;
+text-align: left;
+    color: #000000;
+  padding-left: 10px;
+}
+.footerD{
+
+  padding:40px;
+  font-weight: 900;
+  opacity: 0.5;
+}
+.footerDe{
+    font-weight: bold;
+display: block;
+margin-top: 10px;
+margin-right: 2%;
+}

@@ -1,0 +1,40 @@
+.containerSpLayout {
+    transform: translateY(180px);
+
+}
+.gridSpLayout {
+  width: 100% !important;
+ background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 10px 25px 7px #ccc;
+  border-radius: 10px;
+
+  margin-right: 0% !important;
+}
+.imgSpLayout {
+    display: flex;
+    justify-content: center;
+ 
+width: 100% !important;
+border-radius: 5% !important;
+}
+@media screen and (max-width: 650px) {
+  .gridSpLayout {
+
+      height: 90%!important;
+    
+  }
+  .gridSpLayout {
+    margin-top: 0px !important;
+    }
+  .containerSpLayout{
+    transform: translateY(0);
+    overflow: hidden;
+  
+    }
+    .gridSpItem {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+}
